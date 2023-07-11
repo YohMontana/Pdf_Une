@@ -58,6 +58,52 @@ doc.setFontSize(12);
 doc.setFont("times", "normal");
 doc.text("ASUNTO: Procedimiento de fiscalización posterior - Carmen Rosa Castillo Ojeda", 20, 105);
 
+//PASE A:
+doc.setFontSize(12);
+doc.setFont("times", "bold");
+doc.text("PASE A:", 20, 115);
+
+doc.setFontSize(12);
+doc.setFont("times", "normal");
+doc.text("(   )  Vicerrectorado Académico", 20, 130);
+
+doc.setFontSize(12);
+doc.setFont("times", "normal");
+doc.text("(   )  Vicerrectorado de Investigación", 20, 135);
+
+doc.setFontSize(12);
+doc.setFont("times", "normal");
+doc.text("(   )  Secretaría General", 20, 140);
+
+doc.setFontSize(12);
+doc.setFont("times", "normal");
+doc.text("(   )  DIGA", 20, 145);
+
+doc.setFontSize(12);
+doc.setFont("times", "normal");
+doc.text("(   )  Escuela de Posgrado", 20, 150);
+
+
+doc.setFontSize(12);
+doc.setFont("times", "normal");
+doc.text("(X)  Facultad de Ciencias Sociales y", 20, 155);
+
+doc.setFontSize(12);
+doc.setFont("times", "normal");
+doc.text("Humanidades", 28, 160);
+
+doc.setFontSize(12);
+doc.setFont("times", "normal");
+doc.text("(   )  Dirección ______________________", 20, 165);
+
+doc.setFontSize(12);
+doc.setFont("times", "normal");
+doc.text("(   )  Oficina ________________________", 20, 170);
+
+doc.setFontSize(12);
+doc.setFont("times", "normal");
+doc.text("Otro _________________________________", 20, 175);
+
 
 // Guardar el PDF
 doc.save("mi_pdf.pdf"); 
