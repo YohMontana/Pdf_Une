@@ -203,7 +203,7 @@ const ModeloA = () => {
 
 
     // Guardar el PDF
-    doc.save("mi_pdf.pdf");
+    doc.save("ModeloA.pdf");
   };
 
   return (
